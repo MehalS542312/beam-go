@@ -1,19 +1,18 @@
-Beam-go-Mehal Reddy Mula
+# Beam-go-Mehal Reddy Mula
 
-First install the go
-Check the version of go
+# First install the go  
 
-$ go version go version go1.18 windows/amd64
+# Check the version of go 
+ $ go version
+ go version go1.18 windows/amd64
 
-Get Apache Beam Go SDK with command
+# Get Apache Beam Go SDK with command
+ $ go get -u github.com/apache/beam/sdks/v2/go/pkg/beam
 
-$ go get -u github.com/apache/beam/sdks/v2/go/pkg/beam
+# Install the wordcount examples with command
+ $ go install github.com/apache/beam/sdks/v2/go/examples/wordcount
 
-Install the wordcount examples with command
+# Add the file wordcount from the examples
 
-$ go install github.com/apache/beam/sdks/v2/go/examples/wordcount
-
-Add the file wordcount from the examples
-Run command
-
-$ wordcount --input sample.txt --output mehaloutput
+# Run command
+ $ wordcount --input sample.txt --output mehaloutput
